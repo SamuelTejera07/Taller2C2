@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:padding="16dp"
+  tools:context=".MainActivity">
+
+  <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Código del libro"
+    android:textSize="18sp" />
+
+  <EditText
+    android:id="@+id/edtcodigo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="text"
+    android:textSize="18sp" />
+
+  <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Nombre del libro"
+    android:textSize="18sp" />
+
+  <EditText
+    android:id="@+id/edtnombre"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="text"
+    android:textSize="18sp" />
+
+  <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Autor"
+    android:textSize="18sp" />
+
+  <EditText
+    android:id="@+id/edtautor"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="text"
+    android:textSize="18sp" />
+
+  <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Editorial"
+    android:textSize="18sp" />
+
+  <EditText
+    android:id="@+id/edteditorial"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="text"
+    android:textSize="18sp" />
+
+  <Button
+    android:id="@+id/btnguardar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Guardar" />
+
+  <Button
+    android:id="@+id/btncancelar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Cancelar" />
+
+  <Button
+    android:id="@+id/btnlistado"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Listado" />
+
+  <Button
+    android:id="@+id/btneliminar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Eliminar" />
+</LinearLayout>
